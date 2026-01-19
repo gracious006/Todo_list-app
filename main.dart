@@ -8,7 +8,6 @@ void main() async {
   runApp(const MyApp());
 }
 
-/* -------------------- APP ROOT -------------------- */
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -26,7 +25,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-/* -------------------- MODEL -------------------- */
+
 
 class Task {
   String title;
@@ -49,7 +48,6 @@ class Task {
   }
 }
 
-/* -------------------- TODO PAGE -------------------- */
 
 class TodoPage extends StatefulWidget {
   const TodoPage({super.key});
